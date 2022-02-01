@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120px"
+   height="80px"
+   viewBox="0 0 600 400"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="generic_badge.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6548511"
+     inkscape:cx="289.48712"
+     inkscape:cy="178.17631"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1916"
+     inkscape:window-height="1033"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0" />
+  <defs
+     id="defs1454" />
+  <metadata
+     id="metadata1457">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#eceff4;fill-opacity:1;stroke:#eceff4;stroke-width:0.74473411;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.70000005;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2017"
+       width="599.25525"
+       height="399.25528"
+       x="0.37236705"
+       y="0.3723534"
+       ry="45.117188" />
+    <rect
+       rx="45.117188"
+       style="opacity:1;vector-effect:none;fill:#bf616a;fill-opacity:1;stroke:#eceff4;stroke-width:0.52649903;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.70000005;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect822"
+       width="599.47351"
+       height="199.4735"
+       x="0.26324952"
+       y="200.26324"
+       ry="45.117188" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:55.14805603px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.58506513"
+       x="299.87881"
+       y="118.52631"
+       id="text2015"><tspan
+         sodipodi:role="line"
+         id="tspan2013"
+         x="299.87881"
+         y="118.52631"
+         style="text-align:center;text-anchor:middle;stroke-width:2.58506513">%TEST_NAME%</tspan></text>
+    <rect
+       rx="45.117188"
+       style="opacity:1;vector-effect:none;fill:%SUCCESS_COLOR%;fill-opacity:1;stroke:#eceff4;stroke-width:0.38558251;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.70000005;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2046"
+       width="600"
+       height="200"
+       x="0"
+       y="200"
+       ry="45.117188" />
+    <text
+       id="text2044"
+       y="319.60339"
+       x="299.87885"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:55.14805603px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e5e9f0;fill-opacity:1;stroke:none;stroke-width:2.58506513"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;fill:#e5e9f0;stroke-width:2.58506513"
+         y="319.60339"
+         x="299.87885"
+         id="tspan2042"
+         sodipodi:role="line">%SUCCESS%</tspan></text>
+  </g>
+</svg>

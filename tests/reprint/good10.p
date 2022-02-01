@@ -1,0 +1,5 @@
+READ x
+WHILE x <> 0
+  PRINT x
+  READ x
+PRINT 0

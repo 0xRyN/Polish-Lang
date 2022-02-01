@@ -1,0 +1,43 @@
+#!/bin/bash
+set -euo pipefail
+
+total=0
+ok=0
+nok=0
+firstfaileddir=""
+
+for i in \
+  "tests/help" \
+  "tests/reprint" \
+  "tests/eval" \
+  "tests/bonus-zarith"
+
+do
+  total=$((total+1))
+  command="dune test $i"
+  echo -n -e "Running tests in directory $i ... "
+
+  if
+     $command 2>/dev/null
+  then
+    echo -e "\e[1m\e[32m[PASS]\e[0m"
+    ok=$((ok+1))
+  else
+    echo -e "\e[1m\e[31m[FAIL]\e[0m"
+    nok=$((nok+1))
+    if [ "$firstfaileddir" = "" ]; then firstfaileddir="$i"; fi
+  fi
+done
+
+echo "In total $total tests were run: $ok passed, $nok failed."
+if [ "$firstfaileddir" = "" ]
+then
+  echo
+  echo "Good job!"
+else
+  echo
+  echo "run the following command for details on the first failed test:"
+  echo "  dune test $firstfaileddir"
+  echo "or go to directory '$firstfaileddir' and run 'dune test'."
+  echo "Open the .t file(s) to see explanations on what the tests are doing"
+fi

@@ -1,0 +1,20 @@
+#!/bin/bash
+# set -euo pipefail
+
+if [ -z "$1" ]
+then
+    echo "No argument supplied"
+else
+    input="$1.report"
+    name=$(basename "$1")
+    svg_file="tests/generic_badge.svg"
+
+    err_count=$(grep "$input" -e "@@" | wc -l)
+
+    if [ $err_count = 0 ]
+    then
+        sed -e "s/%SUCCESS_COLOR%/#5e81ac/" -e "s/%TEST_NAME%/$name/" -e "s/%SUCCESS%/SUCCESS/" $svg_file
+    else
+        sed -e "s/%SUCCESS_COLOR%/#bf616a/" -e "s/%TEST_NAME%/$name/" -e "s/%SUCCESS%/$err_count FAILURES/" $svg_file
+    fi
+fi
